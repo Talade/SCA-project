@@ -1,0 +1,63 @@
+.calculator-grid {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  max-width: 18em;
+}
+.display {
+    background-color: #222222;
+  color: #fff;
+  font-size: 2em;
+  padding: 0.5em 0.75em;
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.display .previous-operand {
+    color: darkslategray;
+}
+.display .current-operand {
+    color: darkgrey;
+}
+.keys {
+    background-color: #999;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.operator {
+    background-color: #222222;
+    font-size: 1.8em;
+    padding: 0.5em 0.75em;
+  text-align: center;
+  color: darkgreen;
+}
+.delete {
+    background-color: #222222;
+    font-size: 1.8em;
+    padding: 0.5em 0.75em;
+  text-align: center;
+  color: darkgreen;
+}
+.equal {
+    background-color: darkgreen;
+    color: white;
+    font-size: 2em;
+}
+.number {
+    background-color: #222222;
+  color: #fff;
+  font-size: 2em;
+  text-align: center;
+}
+.decimal {
+    background-color: #222222;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+.clear {
+    font-size: 1.5em;
+    background-color: #222222;
+    color: orangered
+}
