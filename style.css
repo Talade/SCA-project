@@ -19,6 +19,8 @@ p {
   color: #fff;
   font-size: 2em;
   padding: 0.5em 0.75em;
+  height: 60px;
+  border: 1px #4e9daf solid;
   text-align: right;
   word-wrap: break-word;
   word-break: break-all;
