@@ -32,7 +32,7 @@ p {
 #display{
   text-align: right;
   font-size: 32px;
-  height: 20px;
+  height: 50%;
   overflow: hidden;
 }
 .keys {
